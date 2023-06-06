@@ -1,10 +1,10 @@
 <script context="module">
     export async function load({ page, fetch }) {
-      await new Promise(resolve => setTimeout(resolve, 1000))
+    //   await new Promise(resolve => setTimeout(resolve, 1000))
       const id = page.params.id
-      const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
-      const guide = await res.json()
-  
+      const res = await fetch(`/guides/${id}.json`)
+      const {guide} = await res.json()
+      console.log(guide)
       if (res.ok) {
         return {
           props: {

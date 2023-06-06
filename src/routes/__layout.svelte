@@ -5,7 +5,7 @@
 
 <header>
     
-    <Title title= "Yang" />
+    <Title title= "Sveltekit" />
 </header>
 
 <main>
@@ -15,7 +15,7 @@
 </main>
 
 <footer>
-    <p>Copyright 2023 Yang</p>
+    <p>Copyright 2023</p>
 </footer>
 
 <style>

@@ -5,7 +5,7 @@
 
 <header>
     <nav>
-        <Title title= "Yang Guides Page" />
+        <Title title= "Guides Page" />
         <div class="links">
             <a href="/" >Home</a>
             <a href="/about" >About</a>
@@ -23,7 +23,7 @@
 </main>
 
 <footer>
-    <p>Copyright 2023 Yang</p>
+    <p>Copyright 2023 Guides</p>
 </footer>
 
 <style>
